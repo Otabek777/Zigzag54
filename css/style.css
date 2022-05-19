@@ -1394,6 +1394,9 @@ ul, ol {
 .colors__radio .radio input:checked + .img::after {
   opacity: 1;
 }
+.colors__radio .radio:last-child {
+  margin-right: 0;
+}
 
 .product__bottom {
   padding-top: 50px;
@@ -1564,7 +1567,7 @@ ul, ol {
   margin-right: 8px;
 }
 .footer__phone a {
-  width: 121px;
+  width: 125px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -2267,7 +2270,7 @@ ul, ol {
     z-index: 9;
     width: 100%;
     height: 72px;
-    background: #2E2E2E;
+    background: #0c0909;
     -webkit-box-shadow: 0px -2px 20px rgba(15, 29, 50, 0.08);
             box-shadow: 0px -2px 20px rgba(15, 29, 50, 0.08);
   }
@@ -2563,5 +2566,14 @@ ul, ol {
     text-align: center;
     color: #F1F1F1;
     margin-bottom: 32px;
+  }
+
+  .colors__radio {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .colors__radio .radio {
+    margin-right: 16px;
   }
 }
