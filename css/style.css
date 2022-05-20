@@ -2576,4 +2576,9 @@ ul, ol {
   .colors__radio .radio {
     margin-right: 16px;
   }
+
+  .footer__phone a {
+    min-width: 225px;
+    width: 225px;
+  }
 }
